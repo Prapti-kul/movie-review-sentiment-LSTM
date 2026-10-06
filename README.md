@@ -1,1 +1,35 @@
-\# Movie Review Sentiment Analysis using LSTM\## OverviewThis project uses a Long Short-Term Memory (LSTM) neural network to perform sentiment analysis on movie reviews.The model classifies a movie review as either \*\*Positive\*\* or \*\*Negative\*\* based on the text provided.\## Technologies Used\- Python\- TensorFlow / Keras\- NumPy\- Pandas\- Matplotlib\- Natural Language Processing (NLP)\- LSTM\- Deep Learning\## Project Workflow1\. Load the movie review dataset2\. Text preprocessing3\. Tokenization4\. Padding sequences5\. Build the LSTM model6\. Train the model7\. Evaluate model performance8\. Predict sentiment for movie reviews\## ModelThe project uses an LSTM-based neural network because LSTM networks are suitable for processing sequential text data and learning patterns from sequences of words.\## Example\*\*Input:\*\*> The movie was excellent and I really enjoyed it.\*\*Output:\*\*> Positive\## Project File`Movie\_Review\_Sentiment\_LSTM.py`\## Future Improvements\- Create a Streamlit web interface\- Improve model accuracy\- Add a larger dataset\- Deploy the application online
+# Movie Review Sentiment Analysis using LSTM
+
+## Overview
+
+This project implements a **Movie Review Sentiment Analysis** system using a Long Short-Term Memory (LSTM) neural network.
+
+The model analyzes movie review text and classifies the sentiment as either:
+
+- **Positive**
+- **Negative**
+
+The project uses the **IMDB movie review dataset** provided through TensorFlow/Keras.
+
+---
+
+## Technologies Used
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Natural Language Processing (NLP)
+- Deep Learning
+- LSTM
+
+---
+
+## Dataset
+
+The project uses the **IMDB Movie Reviews Dataset**, which contains movie reviews labeled as positive or negative.
+
+The dataset is loaded directly using:
+
+```python
+tensorflow.keras.datasets.imdb
